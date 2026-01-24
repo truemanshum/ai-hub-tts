@@ -1,0 +1,31 @@
+name: AI Hub TTS
+version: 1.0.4
+slug: ai-hub-tts
+description: 离线语音合成，基于 Kokoro 多语言模型，支持中英文语音合成，兼容 Wyoming 协议
+url: https://github.com/your-repo/ai-hub-tts
+arch:
+  - amd64
+  - aarch64
+init: false
+host_network: true
+ports:
+  10301/tcp: 10301
+ports_description:
+  10301/tcp: Wyoming TTS 服务端口
+map:
+  - config:rw
+backup_exclude:
+  - /data/tts
+discovery:
+  - wyoming
+options:
+  voice: af_heart
+  sample_rate: 24000
+  speed: 1.0
+  debug: false
+schema:
+  voice: str
+  sample_rate: int
+  speed: float
+  debug: bool
+stage: stable

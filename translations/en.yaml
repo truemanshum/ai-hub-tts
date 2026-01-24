@@ -1,0 +1,14 @@
+---
+configuration:
+  voice:
+    name: Voice
+    description: Select the voice to use for synthesis
+  sample_rate:
+    name: Sample Rate
+    description: Audio sample rate (default 24000Hz)
+  speed:
+    name: Speed
+    description: Speech speed (1.0=normal, 1.1=faster, 0.9=slower)
+  debug:
+    name: Debug Mode
+    description: Enable verbose logging output

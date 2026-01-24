@@ -1,0 +1,14 @@
+---
+configuration:
+  voice:
+    name: 语音音色
+    description: 选择要使用的语音音色
+  sample_rate:
+    name: 采样率
+    description: 音频采样率 (默认 24000Hz)
+  speed:
+    name: 语速
+    description: 语音速度 (1.0=正常, 1.1=较快, 0.9=较慢)
+  debug:
+    name: 调试模式
+    description: 启用详细日志输出

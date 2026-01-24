@@ -1,0 +1,14 @@
+.git
+.github
+__pycache__
+*.pyc
+*.pyo
+.pytest_cache
+tests/
+docs/
+*.md
+!README.md
+!DOCS.md
+!CHANGELOG.md
+data/
+*.tar.bz2

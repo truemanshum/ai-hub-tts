@@ -1,0 +1,5 @@
+wyoming>=1.7.2
+websockets>=13.0
+zeroconf>=0.132.0
+sherpa-onnx>=1.10.0
+numpy>=1.24.0
